@@ -13,9 +13,9 @@ export default function Index() {
           <div className="text-center animate-fade-in">
             <div className="mb-8">
               <img 
-                src="/img/c2a49d64-b6ec-43d6-a7f9-6e3000bdf741.jpg"
-                alt="Профиль"
-                className="w-32 h-32 rounded-full mx-auto shadow-2xl border-4 border-white/80"
+                src="/img/d5c3a3d0-f77c-484d-8edf-aa0ec0b20cda.jpg"
+                alt="Александр Шиндряев - Мастер подземелий"
+                className="w-40 h-40 rounded-full mx-auto shadow-2xl border-4 border-primary/20"
               />
             </div>
             
@@ -51,6 +51,13 @@ export default function Index() {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 animate-fade-in">
+                <div className="mb-6">
+                  <img 
+                    src="/img/bd68c979-4af4-4eb1-bad0-345fc65a7d13.jpg"
+                    alt="D&D игровая атмосфера"
+                    className="w-full h-48 object-cover rounded-lg shadow-lg"
+                  />
+                </div>
                 <h3 className="text-2xl font-semibold text-gray-800">
                   Создатель миров и историй
                 </h3>
@@ -84,6 +91,13 @@ export default function Index() {
               </div>
               
               <div className="space-y-4 animate-slide-up">
+                <div className="mb-6">
+                  <img 
+                    src="/img/45e4c1ec-4847-4d33-a411-42e20dbcd838.jpg"
+                    alt="Магическая библиотека творчества"
+                    className="w-full h-48 object-cover rounded-lg shadow-lg"
+                  />
+                </div>
                 {[
                   { skill: "Мастерство D&D", level: 98 },
                   { skill: "Создание сеттингов", level: 95 },
