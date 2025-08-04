@@ -20,11 +20,11 @@ export default function Index() {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-gray-800 to-black bg-clip-text text-transparent mb-4">
-              Добро пожаловать
+              Александр Шиндряев
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Современный профессионал с яркими идеями и креативным подходом к решению задач
+              Мастер подземелий • Творческая личность • Создатель миров
             </p>
             
             <div className="flex gap-4 justify-center flex-wrap">
@@ -52,43 +52,43 @@ export default function Index() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 animate-fade-in">
                 <h3 className="text-2xl font-semibold text-gray-800">
-                  Творческий подход к каждому проекту
+                  Создатель миров и историй
                 </h3>
                 
                 <p className="text-gray-600 leading-relaxed">
-                  Профессионал с многолетним опытом работы в сфере креативных решений. 
-                  Специализируюсь на создании уникальных проектов, которые сочетают в себе 
-                  современные технологии и творческий подход.
+                  Уже много лет веду игры в Dungeons & Dragons, создавая незабываемые 
+                  приключения для игроков. Как творческая личность, пишу книги и стихи, 
+                  а также разработал собственный сеттинг для D&D 5e 2014.
                 </p>
                 
                 <p className="text-gray-600 leading-relaxed">
-                  Верю в силу инноваций и постоянно изучаю новые тренды в индустрии. 
-                  Мой подход основан на глубоком понимании потребностей клиентов и 
-                  стремлении превзойти их ожидания.
+                  Ищу единомышленников — таких же творческих личностей с похожими интересами. 
+                  Уверен, что в моем мире D&D найдется местечко для каждого, кто готов 
+                  окунуться в мир фантазий и приключений.
                 </p>
 
                 <div className="flex gap-6 pt-4">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-primary">5+</div>
-                    <div className="text-sm text-gray-600">Лет опыта</div>
+                    <div className="text-2xl font-bold text-primary">∞</div>
+                    <div className="text-sm text-gray-600">Лет в D&D</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-secondary">100+</div>
-                    <div className="text-sm text-gray-600">Проектов</div>
+                    <div className="text-2xl font-bold text-secondary">1</div>
+                    <div className="text-sm text-gray-600">Свой сеттинг</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-gray-800">50+</div>
-                    <div className="text-sm text-gray-600">Клиентов</div>
+                    <div className="text-2xl font-bold text-gray-800">∞</div>
+                    <div className="text-sm text-gray-600">Историй</div>
                   </div>
                 </div>
               </div>
               
               <div className="space-y-4 animate-slide-up">
                 {[
-                  { skill: "Креативное мышление", level: 95 },
-                  { skill: "Управление проектами", level: 90 },
-                  { skill: "Командная работа", level: 88 },
-                  { skill: "Инновационные решения", level: 92 }
+                  { skill: "Мастерство D&D", level: 98 },
+                  { skill: "Создание сеттингов", level: 95 },
+                  { skill: "Писательство", level: 90 },
+                  { skill: "Творческое мышление", level: 96 }
                 ].map((item, index) => (
                   <div key={index} className="space-y-2">
                     <div className="flex justify-between">
@@ -118,7 +118,7 @@ export default function Index() {
             </h2>
             
             <p className="text-xl text-gray-600 mb-12">
-              Готов обсудить ваши идеи и воплотить их в жизнь
+              Присоединяйся к миру приключений и творчества
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -127,8 +127,8 @@ export default function Index() {
                   <div className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name="Mail" size={24} className="text-white" />
                   </div>
-                  <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
-                  <p className="text-gray-600">hello@example.com</p>
+                  <h3 className="font-semibold text-gray-800 mb-2">Telegram</h3>
+                  <p className="text-gray-600">@Dark_FENFiR</p>
                 </CardContent>
               </Card>
               
@@ -137,8 +137,8 @@ export default function Index() {
                   <div className="w-16 h-16 bg-gradient-to-r from-secondary to-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name="Phone" size={24} className="text-white" />
                   </div>
-                  <h3 className="font-semibold text-gray-800 mb-2">Телефон</h3>
-                  <p className="text-gray-600">+7 (999) 123-45-67</p>
+                  <h3 className="font-semibold text-gray-800 mb-2">Специализация</h3>
+                  <p className="text-gray-600">D&D 5e Мастер</p>
                 </CardContent>
               </Card>
               
@@ -147,8 +147,8 @@ export default function Index() {
                   <div className="w-16 h-16 bg-gradient-to-r from-gray-700 to-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name="MapPin" size={24} className="text-white" />
                   </div>
-                  <h3 className="font-semibold text-gray-800 mb-2">Локация</h3>
-                  <p className="text-gray-600">Москва, Россия</p>
+                  <h3 className="font-semibold text-gray-800 mb-2">Сеттинг</h3>
+                  <p className="text-gray-600">Авторский мир</p>
                 </CardContent>
               </Card>
             </div>
@@ -156,11 +156,11 @@ export default function Index() {
             <div className="flex justify-center gap-6">
               <Button size="lg" className="text-lg px-8 py-4">
                 <Icon name="MessageCircle" size={20} className="mr-2" />
-                Написать сообщение
+Присоединиться к игре
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-4">
                 <Icon name="Calendar" size={20} className="mr-2" />
-                Назначить встречу
+Узнать о сеттинге
               </Button>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function Index() {
           </div>
           
           <p className="text-gray-400">
-            © 2024 Современная визитка. Создано с любовью и вниманием к деталям.
+            © 2024 Мир приключений ждет тебя. Создано с магией и вдохновением.
           </p>
         </div>
       </footer>
