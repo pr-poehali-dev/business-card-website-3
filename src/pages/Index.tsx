@@ -4,10 +4,10 @@ import Icon from "@/components/ui/icon";
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-orange-50 to-cyan-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-secondary/20 to-purple-500/20 animate-float"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-secondary/10 to-gray-600/10 animate-float"></div>
         
         <div className="relative container mx-auto px-4 py-20">
           <div className="text-center animate-fade-in">
@@ -19,7 +19,7 @@ export default function Index() {
               />
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-secondary to-purple-600 bg-clip-text text-transparent mb-4">
+            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-gray-800 to-black bg-clip-text text-transparent mb-4">
               Добро пожаловать
             </h1>
             
@@ -45,7 +45,7 @@ export default function Index() {
       <section className="py-20 bg-white/60 backdrop-blur-sm">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-primary to-gray-800 bg-clip-text text-transparent">
               Обо мне
             </h2>
             
@@ -77,7 +77,7 @@ export default function Index() {
                     <div className="text-sm text-gray-600">Проектов</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-purple-600">50+</div>
+                    <div className="text-2xl font-bold text-gray-800">50+</div>
                     <div className="text-sm text-gray-600">Клиентов</div>
                   </div>
                 </div>
@@ -110,10 +110,10 @@ export default function Index() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-gradient-to-r from-primary/10 via-secondary/10 to-purple-500/10">
+      <section className="py-20 bg-gradient-to-r from-primary/5 via-secondary/5 to-gray-600/5">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-16 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold mb-16 bg-gradient-to-r from-primary to-gray-800 bg-clip-text text-transparent">
               Контакты
             </h2>
             
@@ -134,7 +134,7 @@ export default function Index() {
               
               <Card className="p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 animate-fade-in">
                 <CardContent className="text-center p-0">
-                  <div className="w-16 h-16 bg-gradient-to-r from-secondary to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-r from-secondary to-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name="Phone" size={24} className="text-white" />
                   </div>
                   <h3 className="font-semibold text-gray-800 mb-2">Телефон</h3>
@@ -144,7 +144,7 @@ export default function Index() {
               
               <Card className="p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 animate-fade-in">
                 <CardContent className="text-center p-0">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-r from-gray-700 to-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name="MapPin" size={24} className="text-white" />
                   </div>
                   <h3 className="font-semibold text-gray-800 mb-2">Локация</h3>
